@@ -4,3 +4,4 @@
 
 
 The GUI for bpi-fel-mass-storage with sunxi-tools in order to run under windows.
+https://github.com/OtakuNekoP/bpi-fel-mass-storage
