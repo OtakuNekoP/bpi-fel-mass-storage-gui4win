@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bpi-fel-mass-storage-gui4win", "bpi-fel-mass-storage-gui4win\bpi-fel-mass-storage-gui4win.csproj", "{AFC813E9-B424-4B9A-A4E6-E2A99877BEF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFC813E9-B424-4B9A-A4E6-E2A99877BEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC813E9-B424-4B9A-A4E6-E2A99877BEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC813E9-B424-4B9A-A4E6-E2A99877BEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC813E9-B424-4B9A-A4E6-E2A99877BEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
