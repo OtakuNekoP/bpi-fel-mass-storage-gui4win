@@ -139,4 +139,7 @@ Cygwin (https://www.cygwin.com/)</value>
     <value>INFO: Process completed successfully!
 INFO: Please wait for FEL Image booting completion...</value>
   </data>
+  <data name="Text_MsgBox_UnknowDev" xml:space="preserve">
+    <value>ERROR: This USB FEL device not support!</value>
+  </data>
 </root>

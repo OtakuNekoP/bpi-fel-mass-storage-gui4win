@@ -35,47 +35,50 @@ namespace bpi_fel_mass_storage_gui4win
 
         private void Launch_Click(object sender, EventArgs e)
         {
-            if(BroadTyp == "(H3)")
+            Boolean LaunchFlag = false;
+            if (BroadTyp == "(H3)")
             {
-                try
-                {
-                    Process proc = Process.Start(FelBin, H3Cmd);
-                    if (proc != null)
-                    {
-                        proc.WaitForExit();
-                        MessageBox.Show(String.Format(MainFormResource.Text_MsgBox_Success, this.FelBin), this.Text,
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                }
-                catch (ArgumentException ex)
-                {
-                    MessageBox.Show(ex.Message, this.Text,
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                LaunchFEL(H3Cmd);
+                LaunchFlag = true;
             }
             if(BroadTyp == "(A64)")
             {
-                try
-                {
-                    Process proc = Process.Start(FelBin, A64Cmd);
-                    if (proc != null)
-                    {
-                        proc.WaitForExit();
-                        MessageBox.Show(String.Format(MainFormResource.Text_MsgBox_Success, this.FelBin), this.Text,
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                }
-                catch (ArgumentException ex)
-                {
-                    MessageBox.Show(ex.Message, this.Text,
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                LaunchFEL(A64Cmd);
+                LaunchFlag = true;
             }
             if (BroadTyp == "")
             {
                 MessageBox.Show(MainFormResource.Text_MsgBox_NoDev);
-            }           
+            }
+            else
+            {
+                if(LaunchFlag == false)
+                {
 
+                    MessageBox.Show(MainFormResource.Text_MsgBox_UnknowDev);
+                }
+            }
+            LaunchFlag = false;
+
+        }
+
+        private void LaunchFEL(string LaunchCmd)
+        {
+            try
+            {
+                Process proc = Process.Start(FelBin, LaunchCmd);
+                if (proc != null)
+                {
+                    proc.WaitForExit();
+                    MessageBox.Show(String.Format(MainFormResource.Text_MsgBox_Success, this.FelBin), this.Text,
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show(ex.Message, this.Text,
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void DetectDevTyp_Click(object sender, EventArgs e)

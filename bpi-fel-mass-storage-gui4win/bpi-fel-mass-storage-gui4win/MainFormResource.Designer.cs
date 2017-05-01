@@ -99,5 +99,14 @@ namespace bpi_fel_mass_storage_gui4win {
                 return ResourceManager.GetString("Text_MsgBox_Success", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   查找类似 ERROR: This USB FEL device not support! 的本地化字符串。
+        /// </summary>
+        internal static string Text_MsgBox_UnknowDev {
+            get {
+                return ResourceManager.GetString("Text_MsgBox_UnknowDev", resourceCulture);
+            }
+        }
     }
 }
