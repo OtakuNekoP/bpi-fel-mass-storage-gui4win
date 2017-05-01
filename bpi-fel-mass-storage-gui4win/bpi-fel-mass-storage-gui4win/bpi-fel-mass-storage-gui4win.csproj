@@ -53,7 +53,7 @@
     <ApplicationIcon>bananalogo32.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>5B9993FB29B8F3450A5CBD742B6C96E364BE0935</ManifestCertificateThumbprint>
