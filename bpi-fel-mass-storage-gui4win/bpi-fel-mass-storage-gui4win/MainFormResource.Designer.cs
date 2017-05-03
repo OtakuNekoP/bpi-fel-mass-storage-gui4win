@@ -63,7 +63,7 @@ namespace bpi_fel_mass_storage_gui4win {
         /// <summary>
         ///   查找类似 About BPI FEL USB Mass Storage Launcher
         ///
-        ///Version: v1.001
+        ///Version: v1.002
         ///
         ///License:
         ///GPLv2

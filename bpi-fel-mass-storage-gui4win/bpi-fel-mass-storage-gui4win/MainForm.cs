@@ -16,7 +16,7 @@ namespace bpi_fel_mass_storage_gui4win
 
         String H3Cmd = "-p uboot pack\\h3\\u-boot-sunxi-with-spl.bin write 0x42000000 pack\\h3\\zImage write 0x43000000 pack\\h3\\script.bin write 0x43300000 pack\\h3\\uInitrd write 0x43100000 pack\\h3\\boot.scr";
         String A64Cmd = "-p spl pack\\m64\\spl32.bin write 0x44000 pack\\m64\\bl31.bin write 0x4a000000 pack\\m64\\u-boot.bin write 0x40080000 pack\\m64\\Image write 0x4fa00000 pack\\m64\\sun50i-a64-bananapi-m64.dtb write 0x4fc00000 pack\\m64\\boot.scr write 0x4fe00000 pack\\m64\\initramfs.uimg reset64 0x44000";
-
+        String M3Cmd = "-p uboot pack\\m3\\u-boot-sunxi-with-spl.bin write 0x42000000 pack\\m3\\zImage write 0x43000000 pack\\m3\\sun8i-a83t-bananapi-m3.dtb write 0x43100000 pack\\m3\\boot.scr write 0x43300000 pack\\m3\\initramfs.uimg";
 
         public MainForm()
         {
@@ -44,6 +44,11 @@ namespace bpi_fel_mass_storage_gui4win
             if(BroadTyp == "(A64)")
             {
                 LaunchFEL(A64Cmd);
+                LaunchFlag = true;
+            }
+            if (BroadTyp == "(A83T)")
+            {
+                LaunchFEL(M3Cmd);
                 LaunchFlag = true;
             }
             if (BroadTyp == "")
