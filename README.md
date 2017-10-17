@@ -7,8 +7,9 @@ The GUI for bpi-fel-mass-storage with sunxi-tools in order to run under windows.
 
 Now supporting:
 
-+ BPI-M2+(H3) 
-+ BPI-M3 
-+ BPI-M64
++ BPI-M2+(H2+/H3) 
++ BPI-M2Zero(H2+)
++ BPI-M3(A83T) 
++ BPI-M64(A64)
 
 https://github.com/OtakuNekoP/bpi-fel-mass-storage
