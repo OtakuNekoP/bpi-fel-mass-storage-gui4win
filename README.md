@@ -22,4 +22,4 @@ https://github.com/OtakuNekoP/bpi-fel-mass-storage
 3. Run the `bpi-fel-mass-storage-gui4win.exe` and follow the instruction.
 4. Waiting for the FEL loading progress.
 5. Check and edit(if necessary) the partition in the `Disk Management`.
-6. Flash the device `with Win32DiskImager`.
+6. Flash the device with `Win32DiskImager`.
