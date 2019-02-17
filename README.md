@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/OtakuNekoP/bpi-fel-mass-storage-gui4win.svg?branch=master)](https://travis-ci.org/OtakuNekoP/bpi-fel-mass-storage-gui4win)
 [![Build status](https://ci.appveyor.com/api/projects/status/co914wbc2bacr02y?svg=true)](https://ci.appveyor.com/project/OtakuNekoP/bpi-fel-mass-storage-gui4win)
 
+![bpi-fel-mass-storage-gui4win](https://img.nyamoe.com/images/2019/02/17/20190217092608.png)
+
 The GUI for bpi-fel-mass-storage with sunxi-tools in order to run under windows.
 
 https://github.com/OtakuNekoP/bpi-fel-mass-storage
