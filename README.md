@@ -1,7 +1,7 @@
 # bpi-fel-mass-storage-gui4win
 
 [![Build status](https://ci.appveyor.com/api/projects/status/co914wbc2bacr02y?svg=true)](https://ci.appveyor.com/project/OtakuNekoP/bpi-fel-mass-storage-gui4win)
-[![GitHub releases](https://img.shields.io/github/downloads/OtakuNekoP/bpi-fel-mass-storage-gui4win/total)](https://github.com/OtakuNekoP/bpi-fel-mass-storage-gui4win/releases)
+[![GitHub releases](https://img.shields.io/github/downloads/OtakuNekoP/bpi-fel-mass-storage-gui4win/total?label=Download%20Here)](https://github.com/OtakuNekoP/bpi-fel-mass-storage-gui4win/releases)
 
 ![bpi-fel-mass-storage-gui4win](https://img.nyamoe.com/images/2019/02/17/20190217092608.png)
 
